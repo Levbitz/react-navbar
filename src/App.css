@@ -1,3 +1,16 @@
 body {
   overflow-x: hidden;
+  font-family: "Noto Sans", sans-serif;
+  color: #fff;
+}
+
+a {
+  color: #fff;
+  font-weight: 800;
+  transition: transform 0.3s ease-in-out;
+}
+
+a:hover {
+  text-decoration: none;
+  color: coral;
 }

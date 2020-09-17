@@ -1,0 +1,152 @@
+.my__showcase {
+  background-image: url(../img/banner.jpg);
+  min-height: 600px;
+}
+
+@media only screen and (max-width: 600px) {
+  .my__showcase {
+    background-image: url(../img/banner.jpg);
+    min-height: 300px;
+  }
+}
+
+.myParent {
+  background: rebeccapurple;
+}
+
+.showcase {
+  padding-top: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .showcase {
+    padding-top: 100px;
+  }
+}
+
+.showcaseImage {
+  width: 500px;
+  margin-top: 30px;
+  padding-top: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .showcaseImage {
+    display: none;
+    width: 500px;
+    margin-top: 30px;
+    padding-top: 50px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .myshowCaseImg {
+    display: none;
+  }
+}
+
+.showscaseContentWrapper {
+  padding: 80px;
+}
+
+.tomato {
+  color: tomato;
+}
+
+@media only screen and (max-width: 600px) {
+  .showscaseContentWrapper {
+    padding: 10px;
+  }
+
+  .showscaseContentWrapper h2 {
+    font-size: 10px;
+  }
+}
+.showscaseContentWrapper h2 {
+  font-size: 50px;
+  font-weight: 800;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .showscaseContentWrapper h2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+}
+
+.showcaseBtn {
+  margin: auto;
+  align-items: center;
+  margin-top: 10px;
+}
+
+button {
+  border-radius: 10px !important;
+}
+
+.my__showcaseBtn {
+  font-weight: 600;
+  height: 50px;
+  width: 200px;
+  border-right: 50% !important;
+}
+
+.my__showcaseBtn:hover {
+  color: coral;
+}
+
+i {
+  color: white;
+}
+
+/* contact form start */
+.contact {
+  padding: 50px;
+  background-image: url(../img/contact.jpg);
+  background-position: center;
+  background-size: cover;
+
+  background-repeat: no-repeat;
+}
+
+.contactBtnWrapper {
+  /* margin: auto;
+  align-items: center; */
+  text-align: center;
+}
+
+.contact_btn {
+  width: 200px;
+  margin-top: 30px;
+}
+.contact_btn:hover {
+  background: lightgreen;
+  color: #fff;
+}
+
+input {
+  outline: none !important;
+  border: none;
+}
+
+textarea {
+  outline: none;
+}
+
+@media only screen and (max-width: 600px) {
+  textarea {
+    width: 300px;
+  }
+}
+
+/* contact form End */
+
+/* About us start */
+@media only screen and (max-width: 600px) {
+  .abtImg {
+    display: none;
+  }
+}
