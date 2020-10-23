@@ -2,11 +2,13 @@ import React from "react";
 //import css
 import "./css/Footer.css";
 
+import FooterImg from "../Components/img/log.png";
+
 function Footer() {
   return (
     <footer id="myFooter">
       <div class="footerImgWrapper">
-        <img width="200px" src="/img/log.png" alt="" />
+        <img width="200px" src={FooterImg} alt="" />
       </div>
       <div>
         <p className="footerParagraph">
